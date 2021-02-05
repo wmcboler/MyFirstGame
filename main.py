@@ -9,6 +9,7 @@ if int(player_age) > 12:
   if ready == "yes":
     print("Great! This is your first choice! You are on a random path and now have two ways to go.")
     first_choice = input("Left or Right ?")
+    if 
 
 
 else:
