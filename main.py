@@ -25,12 +25,12 @@ if int(player_age) > 5:
       print("\nYou travel down the right path and you go deeper into a forest. Threes start to get denser and you start to lose your way. Eventually you arrive at an old shack. Do you want to enter the shack or try to find a way out of the woods?")
       choice_2 = input("\nshack or woods? ")
       if choice_2 == "shack":
-        print()
-        choice_1 = input()
+        print("\nAs you go into the shack you hear a noise coming from a backroom. Do you want to find the source of the sound or run away?")
+        choice_1 = input("\nfind or run? ")
       
       else:
-        print()
-        choice_2 = input()
+        print("\nAs you walk into the woods, it starts to rain. The path starts to get muddy and you are having a hard time making it through the trees. All of a sudden you hear a branch break. Do you want to run or keep walking?")
+        choice_2 = input("\nrun or walk? ")
   else:
     print("\nWhen you are ready just restart the game and be ready to play!")    
 
